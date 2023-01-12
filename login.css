@@ -146,8 +146,6 @@ button:hover {
 }
 
 
-
-
 .zakladki {
     border-top: 1px solid lightgray;
     text-align: left;
@@ -182,4 +180,8 @@ button:hover {
     position: absolute;
     width: 100%;
     left: -2px;
+}
+
+p {
+    cursor: default;
 }
