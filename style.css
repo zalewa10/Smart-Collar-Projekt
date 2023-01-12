@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul,
+li,
+a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(18, 66, 239);
+}
+
+.eclipse {
+    position: absolute;
+    float: right;
+    right: 0;
+}
+
+.logo {
+    float: left;
+    height: 1.4em;
+    margin-top: 20px;
+    margin-left: 1em;
+}
+
+.hamburger-menu {
+    display: none;
+    float: right;
+    margin: auto;
+}
+
+.hero {
+    background-color: rgb(18, 66, 239);
+    padding-top: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: white;
+}
+
+h4 {
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    padding: 1em 4em;
+    font-size: 0.8em;
+}
+
+/* .hero video {
+    width: 100%;
+} */
+
+h3 {
+    margin-top: 10px;
+}
+
+.hero-img {
+    display: grid;
+    place-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-size: 3em;
+    padding: 0.5em 0 1em 0;
+}
+
+.about {
+    background-color: rgb(244, 242, 239);
+    padding: 1em 2em;
+    justify-content: space-around;
+}
+
+.about-section {
+    background-color: white;
+    text-align: left;
+    padding: 1em 2em;
+    border-radius: 10px;
+    border: 0.5px solid lightgray;
+    box-shadow: .5em .1em 2em rgba(5, 5, 5, 0.712);
+    margin-bottom: 20px;
+}
+
+.h4 {
+    color: black;
+    text-align: left;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.about-section img {
+    display: grid;
+    place-items: center;
+    margin: auto;
+    width: 80%;
+}
+
+
+button {
+    background-color: darkblue;
+    border-radius: 5px;
+    color: white;
+    padding: 0.6em 1.6em;
+    font-size: 1em;
+    border: 0;
+    margin-top: 20px;
+}
+
+.klienci {
+    position: relative;
+    text-align: center;
+    color: black;
+    padding: 2em 2em;
+}
+
+.klienci-img {
+    margin-top: 50px;
+}
+
+.klienci img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: .5em .1em 2em rgba(5, 5, 5, 0.712);
+    margin-bottom: 20px;
+}
+
+.h11 {
+    color: black;
+}
+
+.h33 {
+    color: black;
+    font-weight: 300;
+    font-size: 0.8em;
+}
+
+.h111 {
+    color: black;
+    font-size: 2em;
+}
+
+.h444 {
+    color: black;
+    font-size: 0.8em;
+}
+
+.download {
+    position: relative;
+    padding: 1em 2em;
+}
+
+.download img {
+    display: grid;
+    place-items: center;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.apki {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.apki img {
+    margin-top: 10px;
+    width: 40%;
+}
+
+.zakladki {
+    text-align: left;
+    margin-bottom: 20px;
+    padding: 1em 2em;
+}
+
+.footer {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 1em 2em;
+    font-weight: 200;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.zakladki p {
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 1.3em;
+}
+
+.zakladki ul {
+    margin-bottom: 40px;
+}
+
+.linia {
+    position: absolute;
+    width: 100%;
+    left: -2px;
+}
