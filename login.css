@@ -91,7 +91,7 @@ h2 {
 }
 
 .card svg {
-    color: #7878bd;
+    color: rgb(18, 66, 239);
     margin-bottom: 20px;
     margin-right: 5px;
 }
@@ -99,7 +99,7 @@ h2 {
 .form_heading {
     padding-bottom: 20px;
     font-size: 21px;
-    color: #7878bd;
+    color: rgb(18, 66, 239);
 }
 
 .field {
@@ -116,7 +116,7 @@ h2 {
 }
 
 .input:focus-visible {
-    outline: 1px solid #aeaed6;
+    outline: 1px solid #0263ff;
 }
 
 .input::placeholder {
@@ -131,17 +131,18 @@ label {
 }
 
 button {
-    background-color: #7878bd;
+    background-color: rgb(18, 66, 239);
     margin-top: 10px;
     font-size: 14px;
     padding: 7px 12px;
     height: auto;
     font-weight: 500;
     color: white;
+    border: none;
 }
 
 button:hover {
-    background-color: #5f5f9c;
+    background-color: #0263ff;
 }
 
 
