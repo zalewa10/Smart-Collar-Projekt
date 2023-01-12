@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    cursor: default;
 }
 
 ul,
@@ -11,14 +12,12 @@ a {
     text-decoration: none;
     list-style-type: none;
     color: black;
-
 }
 
-
-ul,
-li {
-    cursor: default;
+a {
+    cursor: pointer;
 }
+
 
 .navbar {
     display: flex;
