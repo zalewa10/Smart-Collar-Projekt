@@ -4,7 +4,7 @@ loginBtn = document.getElementById("login");
 message = document.getElementById("response");
 card = document.querySelector(".card");
 let userBase = [
-  { username: "KrzysztofZal", userpass: "Masło" },
+  { username: "admin", userpass: "admin" },
   { username: "TymoteuszStr", userpass: "MojeHasło" },
 ];
 
@@ -30,7 +30,7 @@ loginBtn.addEventListener("click", () => {
     console.log("tu działa");
     window.location.href = "index2.html";
   } else {
-    card.style.height = "350px";
+    card.style.height = "60vh";
     message.innerHTML = "Niepoprawne hasło lub email";
   }
 });
