@@ -247,16 +247,30 @@ button:hover {
 }
 
 @media (min-width:1024px) {
-    .slider-menu>li>a {
-        font-size: 2vw;
-        padding: 5px;
+    #hamburger {
+        font-size: 2rem;
+        margin-top: 20px;
+        margin-right: 20px;
     }
 
-    .eclipse {
-        width: 250px;
+    .close-btn {
+        padding: 0.6em 1.6em;
     }
+}
 
-    .logo {
-        height: 3em;
-    }
+.slider-menu>li>a {
+    font-size: 2vw;
+    padding: 5px;
+}
+
+.slider-menu>li>a {
+    padding-left: 70px;
+}
+
+.eclipse {
+    width: 250px;
+}
+
+.logo {
+    height: 3em;
 }
